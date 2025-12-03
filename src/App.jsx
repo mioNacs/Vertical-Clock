@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen overflow-hidden flex items-center justify-center bg-[#1a1a1a] text-white">
+      <div className="w-screen h-screen overflow-hidden flex items-center justify-center bg-black/60 text-white">
         <div className='gap-14 flex scale-110 transform'>
           <div className='gap-6 flex'>
             <Vbar number={3} value={h1}/>
